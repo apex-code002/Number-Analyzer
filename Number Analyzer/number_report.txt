@@ -1,0 +1,30 @@
+=========== NUMBER ANALYZER PRO REPORT ===========
+
+Number: 1
+  Even: False
+  Odd: True
+  Prime: False
+  Palindrome: True
+  Perfect Square: True
+  Armstrong: True
+  Perfect Number: False
+
+Number: 2
+  Even: True
+  Odd: False
+  Prime: True
+  Palindrome: True
+  Perfect Square: False
+  Armstrong: True
+  Perfect Number: False
+
+Number: 14
+  Even: True
+  Odd: False
+  Prime: False
+  Palindrome: False
+  Perfect Square: False
+  Armstrong: False
+  Perfect Number: False
+
+=========== END OF REPORT ===========
