@@ -1,19 +1,19 @@
 # Number-Analyzer
-🧮 Project Report: Number Analyzer Pro
+ Project Report: Number Analyzer Pro
 
 Developed by: Akash Jogdand
 Version: Upgraded Edition
 Language Used: Python 3
 Library Used: colorama (for colored output)
 
-📘 1. Project Overview
+ 1. Project Overview
 
 Number Analyzer Pro is an advanced Python program that analyzes one or more user-entered numbers and identifies a variety of mathematical properties.
 It performs detailed checks such as Even, Odd, Prime, Palindrome, Perfect, Armstrong, and Perfect Square, then presents a colorful, readable report on screen and saves it as a text file.
 
 This project helps users understand the mathematical characteristics of numbers quickly and clearly — combining logic, automation, and professional presentation.
 
-🧩 2. Objectives
+ 2. Objectives
 
 To design a user-friendly tool for number analysis.
 
@@ -25,7 +25,7 @@ To save a detailed report for future reference.
 
 To enhance understanding of conditional logic, loops, and functions.
 
-⚙️ 3. Features
+ 3. Features
 Feature	Description
 Even / Odd Detection	Determines whether a number is even or odd.
 Prime Check	Verifies if a number is divisible only by 1 and itself.
@@ -35,7 +35,7 @@ Armstrong Check	Validates if the sum of the digits raised to the power of their 
 Perfect Number Check	Identifies if the number equals the sum of its proper divisors.
 Summary Report	Displays counts of how many numbers meet each condition.
 Text File Report	Automatically saves all results to number_report.txt for record keeping.
-💡 4. Working Principle
+ 4. Working Principle
 
 The user inputs multiple numbers separated by spaces.
 
@@ -51,13 +51,13 @@ A summary table is generated showing totals.
 
 All data is saved in a structured report file.
 
-📄 5. Sample Output (Console)
+ 5. Sample Output (Console)
 ===============================
-     🧮 Number Analyzer 
+      Number Analyzer 
 ===============================
 Enter numbers separated by space: 6 7 28 121 abc
 
-🔍 Analyzing 6:
+ Analyzing 6:
 Even: True
 Odd: False
 Prime: False
@@ -66,18 +66,18 @@ Perfect Square: False
 Armstrong: False
 Perfect Number: True
 
-⚠️ 'abc' is not a valid integer!
+ 'abc' is not a valid integer!
 
-📊 --- Summary ---
+ --- Summary ---
 Total numbers: 3
 Even numbers: 1
 Prime numbers: 1
 Palindromes: 1
 Perfect Numbers: 1
 
-💾 Report saved as 'number_report.txt'
+ Report saved as 'number_report.txt'
 
-📁 6. Sample Output (Saved Report File)
+ 6. Sample Output (Saved Report File)
 === Number Analyzer Pro Report ===
 
 Number: 6
@@ -109,7 +109,7 @@ Number: 28
 
 === End of Report ===
 
-🧠 7. Concepts Used
+ 7. Concepts Used
 
 Functions: For modular structure and reusability.
 
@@ -123,7 +123,7 @@ String Manipulation: For palindrome and Armstrong checks.
 
 Colorama Library: For colored and professional console display.
 
-🚀 8. Advantages
+ 8. Advantages
 
 Easy to use and visually appealing.
 
@@ -135,7 +135,7 @@ Accurate and efficient number classification.
 
 Educational — helps understand numeric patterns.
 
-🔮 9. Future Enhancements
+ 9. Future Enhancements
 
 Add Graphical User Interface (GUI) using Tkinter or PyQt.
 
@@ -147,7 +147,7 @@ Integrate Database storage for tracking analysis history.
 
 Add Mobile or Web version using Flask or React.
 
-🏁 10. Conclusion
+ 10. Conclusion
 
 Number Analyzer Pro is a smart, modern Python tool that combines logic, design, and functionality to produce professional mathematical analysis results.
 It demonstrates excellent programming practices like modular coding, validation, file management, and user interface enhancement through color formatting.
