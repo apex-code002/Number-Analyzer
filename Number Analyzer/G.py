@@ -12,7 +12,7 @@ def is_armstrong(n): return n == sum(int(d)**len(str(n)) for d in str(n))
 def is_perfect(n): return n > 1 and sum(i for i in range(1, n) if n % i == 0) == n
 
 def analyze_number(n):
-    print(Fore.CYAN + f"\n🔍 Analyzing {n}:" + Style.RESET_ALL)
+    print(Fore.CYAN + f"\n Analyzing {n}:" + Style.RESET_ALL)
     print(f"Even: {is_even(n)}")
     print(f"Odd: {is_odd(n)}")
     print(f"Prime: {is_prime(n)}")
@@ -23,7 +23,7 @@ def analyze_number(n):
 
 def main():
     print(Fore.GREEN + "===============================")
-    print("     🧮 Number Analyzer ")
+    print("      Number Analyzer ")
     print("===============================" + Style.RESET_ALL)
     
     numbers = input("Enter numbers separated by space: ").split()
@@ -31,14 +31,14 @@ def main():
 
     for num in numbers:
         if not num.isdigit():
-            print(Fore.RED + f"⚠️ '{num}' is not a valid integer!" + Style.RESET_ALL)
+            print(Fore.RED + f" '{num}' is not a valid integer!" + Style.RESET_ALL)
             continue
         n = int(num)
         nums.append(n)
         analyze_number(n)
 
     if nums:
-        print(Fore.YELLOW + "\n📊 --- Summary ---" + Style.RESET_ALL)
+        print(Fore.YELLOW + "\n --- Summary ---" + Style.RESET_ALL)
         print(f"Total numbers: {len(nums)}")
         print(f"Even numbers: {sum(is_even(x) for x in nums)}")
         print(f"Prime numbers: {sum(is_prime(x) for x in nums)}")
@@ -58,7 +58,7 @@ def main():
                 f.write(f"  Perfect Number: {is_perfect(n)}\n\n")
             f.write("=== End of Report ===\n")
 
-        print(Fore.BLUE + "\n💾 Report saved as 'number_report.txt'" + Style.RESET_ALL)
+        print(Fore.BLUE + "\n Report saved as 'number_report.txt'" + Style.RESET_ALL)
     else:
         print(Fore.RED + "\nNo valid numbers to analyze." + Style.RESET_ALL)
 
