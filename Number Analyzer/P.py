@@ -35,7 +35,7 @@ def is_perfect(n):
 # Number Analysis
 # ------------------------------------
 def analyze_number(n):
-    print(Fore.CYAN + f"\n🔍 ANALYZING NUMBER: {n}")
+    print(Fore.CYAN + f"\n ANALYZING NUMBER: {n}")
     print(Fore.WHITE + "-" * 35)
     
     print(f"Even:              {is_even(n)}")
@@ -65,14 +65,14 @@ def save_report(nums):
 
         f.write("=========== END OF REPORT ===========")
 
-    print(Fore.GREEN + "\n💾 Report saved as 'number_report.txt'")
+    print(Fore.GREEN + "\n Report saved as 'number_report.txt'")
 
 # ------------------------------------
 # MENU-DRIVEN MAIN PROGRAM
 # ------------------------------------
 def main():
     print(Fore.GREEN + "===================================")
-    print("        🧮 NUMBER ANALYZER PRO")
+    print("         NUMBER ANALYZER PRO")
     print("===================================" + Style.RESET_ALL)
 
     numbers = input(Fore.YELLOW + "Enter numbers separated by space: " + Style.RESET_ALL).split()
@@ -88,11 +88,11 @@ def main():
             print(Fore.RED + f"⚠ '{num}' is NOT a valid integer!")
 
     if not nums:
-        print(Fore.RED + "\n❌ No valid numbers entered!")
+        print(Fore.RED + "\n No valid numbers entered!")
         return
 
     # Summary
-    print(Fore.MAGENTA + "\n📊 SUMMARY")
+    print(Fore.MAGENTA + "\n SUMMARY")
     print(Fore.WHITE + "-" * 30)
     print(f"Total numbers:           {len(nums)}")
     print(f"Even numbers:            {sum(is_even(x) for x in nums)}")
